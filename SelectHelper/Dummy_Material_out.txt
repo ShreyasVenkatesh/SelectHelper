@@ -1,0 +1,430 @@
+//Dummy bom creation:
+
+material DUMMY_MATERIAL {names EN "Dummy Material" classes DUMMY boms DUMMY_BOM}
+
+class DUMMY {names EN "Dummy Class"} 
+
+bom DUMMY_BOM {names EN 'Dummy BOM'
+	1 material S2_80V4_512_32 min 1 max 1,
+	2 material S2_80V4_768_32 min 1 max 1,
+	3 material S2_80V4_1_32 min 1 max 1,
+	4 material S2_80V4_15_32 min 1 max 1,
+	5 material S2_90V4_2_64 min 1 max 1,
+	6 material S4_80V4_1_32 min 1 max 1,
+	7 material S4_80V4_15_32 min 1 max 1,
+	8 material S4_80V4_2_32 min 1 max 1,
+	9 material S4_80V4_3_32 min 1 max 1,
+	10 material S4_90V4_4_64 min 1 max 1,
+	11 material S6_80V4_4_5_32 min 1 max 1,
+	12 material S6_90V4_6_64 min 1 max 1,
+	13 material S8_80V4_3_32 min 1 max 1,
+	14 material S8_80V4_4_32 min 1 max 1,
+	15 material S8_80V4_6_32 min 1 max 1,
+	16 material S8_90V4_6_32 min 1 max 1,
+	17 material S8_90V4_8_64 min 1 max 1,
+	18 material S10_80V4_75_32 min 1 max 1,
+	19 material S10_90V4_75_32 min 1 max 1,
+	20 material S10_90V4_10_64 min 1 max 1,
+	21 material S12_80V4_9_32 min 1 max 1,
+	22 material S12_90V4_9_32 min 1 max 1,
+	23 material S12_90V4_12_64 min 1 max 1,
+	24 material S14_80V4_10_32 min 1 max 1,
+	25 material S14_90V4_10_32 min 1 max 1,
+	26 material S14_90V4_14_64 min 1 max 1,
+	27 material S16_80V4_12_32 min 1 max 1,
+	28 material S16_90V4_12_32 min 1 max 1,
+	29 material S16_90V4_12_64 min 1 max 1,
+	30 material S16_90V4_16_64 min 1 max 1,
+	31 material BS2_80V4_512_32 min 1 max 1,
+	32 material BS2_80V4_768_32 min 1 max 1,
+	33 material BS2_80V4_1_32 min 1 max 1,
+//	34 material BS2_80V4_15_32 min 1 max 1,
+	35 material BS2_90V4_2_64 min 1 max 1,
+	36 material BS4_80V4_1_32 min 1 max 1,
+	37 material BS4_80V4_15_32 min 1 max 1,
+	38 material BS4_80V4_2_32 min 1 max 1,
+//	39 material BS4_80V4_3_32 min 1 max 1,
+	40 material BS4_90V4_4_64 min 1 max 1,
+	41 material BS6_80V4_45_32 min 1 max 1,
+	42 material BS6_90V4_6_64 min 1 max 1,
+	43 material BS8_80V4_3_32 min 1 max 1,
+	44 material BS8_80V4_4_32 min 1 max 1,
+//	45 material BS8_80V4_6_32 min 1 max 1,
+	46 material BS8_90V4_6_32 min 1 max 1,
+	47 material BS8_90V4_8_64 min 1 max 1,
+	48 material BS10_80V4_75_32 min 1 max 1,
+	49 material BS10_90V4_75_32 min 1 max 1,
+	50 material BS10_90V4_10_64 min 1 max 1,
+	51 material BS12_80V4_9_32 min 1 max 1,
+	52 material BS12_90V4_9_32 min 1 max 1,
+	53 material BS12_90V4_12_64 min 1 max 1,
+	54 material BS14_80V4_10_32 min 1 max 1,
+	55 material BS14_90V4_10_32 min 1 max 1,
+	56 material BS14_90V4_14_64 min 1 max 1,
+	57 material BS16_80V4_12_32 min 1 max 1,
+	58 material BS16_90V4_12_32 min 1 max 1,
+	59 material BS16_90V4_12_64 min 1 max 1,
+	60 material BS16_90V4_16_64 min 1 max 1,
+	61 material SS2_80V4_512_32 min 1 max 1,
+	62 material SS2_80V4_768_32 min 1 max 1,
+	63 material SS2_80V4_1_32 min 1 max 1,
+//	64 material SS2_80V4_15_32 min 1 max 1,
+	65 material SS2_90V4_2_64 min 1 max 1,
+	66 material SS4_80V4_1_32 min 1 max 1,
+	67 material SS4_80V4_15_32 min 1 max 1,
+	68 material SS4_80V4_2_32 min 1 max 1,
+//	69 material SS4_80V4_3_32 min 1 max 1,
+	70 material SS4_90V4_4_64 min 1 max 1,
+//	71 material SS6_80V4_45_32 min 1 max 1,
+	72 material SS6_90V4_6_64 min 1 max 1,
+	73 material SS8_80V4_3_32 min 1 max 1,
+	74 material SS8_80V4_4_32 min 1 max 1,
+//	75 material SS8_80V4_6_32 min 1 max 1,
+//	76 material SS8_90V4_6_32 min 1 max 1,
+	77 material SS8_90V4_8_64 min 1 max 1,
+	78 material SS10_80V4_75_32 min 1 max 1,
+	79 material SS10_90V4_75_32 min 1 max 1,
+	80 material SS10_90V4_10_64 min 1 max 1,
+	81 material SS12_80V4_9_32 min 1 max 1,
+	82 material SS12_90V4_9_32 min 1 max 1,
+	83 material SS12_90V4_12_64 min 1 max 1,
+	84 material SS14_80V4_10_32 min 1 max 1,
+	85 material SS14_90V4_10_32 min 1 max 1,
+	86 material SS14_90V4_14_64 min 1 max 1,
+	87 material SS16_80V4_12_32 min 1 max 1,
+	88 material SS16_90V4_12_32 min 1 max 1,
+	89 material SS16_90V4_12_64 min 1 max 1,
+	90 material SS16_90V4_16_64 min 1 max 1,
+	91 material SGS2_80V4_512_32 min 1 max 1,
+	92 material SGS2_80V4_768_32 min 1 max 1,
+	93 material SGS2_80V4_1_32 min 1 max 1,
+//	94 material SGS2_80V4_15_32 min 1 max 1,
+	95 material SGS2_90V4_2_64 min 1 max 1,
+	96 material SGS4_80V4_1_32 min 1 max 1,
+	97 material SGS4_80V4_15_32 min 1 max 1,
+	98 material SGS4_80V4_2_32 min 1 max 1,
+//	99 material SGS4_80V4_3_32 min 1 max 1,
+	100 material SGS4_90V4_4_64 min 1 max 1,
+	101 material SGS6_80V4_45_32 min 1 max 1,
+	102 material SGS6_90V4_6_64 min 1 max 1,
+	103 material SGS8_80V4_3_32 min 1 max 1,
+	104 material SGS8_80V4_4_32 min 1 max 1,
+//	105 material SGS8_80V4_6_32 min 1 max 1,
+	106 material SGS8_90V4_6_32 min 1 max 1,
+	107 material SGS8_90V4_8_64 min 1 max 1,
+	108 material SGS10_80V4_75_32 min 1 max 1,
+	109 material SGS10_90V4_75_32 min 1 max 1,
+	110 material SGS10_90V4_10_64 min 1 max 1,
+	111 material SGS12_80V4_9_32 min 1 max 1,
+	112 material SGS12_90V4_9_32 min 1 max 1,
+	113 material SGS12_90V4_12_64 min 1 max 1,
+	114 material SGS14_80V4_10_32 min 1 max 1,
+	115 material SGS14_90V4_10_32 min 1 max 1,
+	116 material SGS14_90V4_14_64 min 1 max 1,
+	117 material SGS16_80V4_12_32 min 1 max 1,
+	118 material SGS16_90V4_12_32 min 1 max 1,
+	119 material SGS16_90V4_12_64 min 1 max 1,
+	120 material SGS16_90V4_16_64 min 1 max 1,
+	121 material SH2_80V4_512_32 min 1 max 1,
+	122 material SH2_80V4_768_32 min 1 max 1,
+	123 material SH2_80V4_1_32 min 1 max 1,
+	124 material SH2_80V4_15_32 min 1 max 1,
+	125 material SH2_90V4_2_64 min 1 max 1,
+	126 material SH4_80V4_1_32 min 1 max 1,
+	127 material SH4_80V4_15_32 min 1 max 1,
+	128 material SH4_80V4_2_32 min 1 max 1,
+	129 material SH4_80V4_3_32 min 1 max 1,
+	130 material SH4_90V4_4_64 min 1 max 1,
+	131 material SH6_80V4_4_5_32 min 1 max 1,
+	132 material SH6_90V4_6_64 min 1 max 1,
+	133 material SH8_80V4_3_32 min 1 max 1,
+	134 material SH8_80V4_4_32 min 1 max 1,
+	135 material SH8_80V4_6_32 min 1 max 1,
+	136 material SH8_90V4_6_32 min 1 max 1,
+	137 material SH8_90V4_8_64 min 1 max 1,
+	138 material SH10_80V4_75_32 min 1 max 1,
+	139 material SH10_90V4_75_32 min 1 max 1,
+	140 material SH10_90V4_10_64 min 1 max 1,
+	141 material SH12_80V4_9_32 min 1 max 1,
+	142 material SH12_90V4_9_32 min 1 max 1,
+	143 material SH12_90V4_12_64 min 1 max 1,
+	144 material SH14_80V4_10_32 min 1 max 1,
+	145 material SH14_90V4_10_32 min 1 max 1,
+	146 material SH14_90V4_14_64 min 1 max 1,
+	147 material SH16_80V4_12_32 min 1 max 1,
+	148 material SH16_90V4_12_32 min 1 max 1,
+	149 material SH16_90V4_12_64 min 1 max 1,
+	150 material SH16_90V4_16_64 min 1 max 1,
+	151 material SAS2_80V4_512_32 min 1 max 1,
+	152 material SAS2_80V4_768_32 min 1 max 1,
+	153 material SAS2_80V4_1_32 min 1 max 1,
+	154 material SAS2_80V4_15_32 min 1 max 1,
+	155 material SAS2_90V4_2_64 min 1 max 1,
+	156 material SAS4_80V4_1_32 min 1 max 1,
+	157 material SAS4_80V4_15_32 min 1 max 1,
+	158 material SAS4_80V4_2_32 min 1 max 1,
+	159 material SAS4_80V4_3_32 min 1 max 1,
+	160 material SAS4_90V4_4_64 min 1 max 1,
+	161 material SAS6_80V4_45_32 min 1 max 1,
+	162 material SAS6_90V4_6_64 min 1 max 1,
+	163 material SAS8_80V4_3_32 min 1 max 1,
+	164 material SAS8_80V4_4_32 min 1 max 1,
+	165 material SAS8_80V4_6_32 min 1 max 1,
+	166 material SAS8_90V4_6_32 min 1 max 1,
+	167 material SAS8_90V4_8_64 min 1 max 1,
+	168 material SAS10_80V4_75_32 min 1 max 1,
+	169 material SAS10_90V4_75_32 min 1 max 1,
+	170 material SAS10_90V4_10_64 min 1 max 1,
+	171 material SAS12_80V4_9_32 min 1 max 1,
+	172 material SAS12_90V4_9_32 min 1 max 1,
+	173 material SAS12_90V4_12_64 min 1 max 1,
+	174 material SAS14_80V4_10_32 min 1 max 1,
+	175 material SAS14_90V4_10_32 min 1 max 1,
+	176 material SAS14_90V4_14_64 min 1 max 1,
+	177 material SAS16_80V4_12_32 min 1 max 1,
+	178 material SAS16_90V4_12_32 min 1 max 1,
+	179 material SAS16_90V4_12_64 min 1 max 1,
+	180 material SAS16_90V4_16_64 min 1 max 1,
+	
+	181 material S2_80V4_512_32_2 min 1 max 1,
+	182 material S2_80V4_768_32_2 min 1 max 1,
+	183 material S2_80V4_1_32_2 min 1 max 1,
+	184 material S2_80V4_15_32_2 min 1 max 1,			
+	185 material S4_80V4_1_32_2 min 1 max 1,		
+	186 material S4_80V4_15_32_2 min 1 max 1,	
+	187 material S4_80V4_2_32_2 min 1 max 1,
+	188 material S4_80V4_3_32_2 min 1 max 1,
+	189 material S6_80V4_4_5_32_2 min 1 max 1,
+	190 material S8_80V4_3_32_2 min 1 max 1,
+	191 material S8_80V4_4_32_2 min 1 max 1,
+	192 material S8_80V4_6_32_2 min 1 max 1,
+	193 material S8_90V4_6_32_2 min 1 max 1,
+	
+	194 material SH4_80V4_2_32_2 min 1 max 1,
+	195 material SH4_80V4_3_32_2 min 1 max 1,	
+	196 material SH6_80V4_4_532_2 min 1 max 1,
+	197 material SH8_80V4_3_32_2 min 1 max 1,
+	198 material SH8_80V4_4_32_2 min 1 max 1,
+	199 material SH8_80V4_6_32_2 min 1 max 1,
+	200 material SH8_90V4_6_32_2 min 1 max 1														
+}
+
+
+//---- 							Dummy materials 						 --------
+
+material S2_80V4_512_32 externalID "S2-80V4-512-32" {names EN "SEL BullionS2,Intel 8880V4,512MB,32GB" longNames EN "SEL BullionS2,Intel 8880V4,512MB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S2_80V4_768_32 externalID "S2-80V4-768-32" {names EN "SEL BullionS2,Intel 8880V4,768MB,32GB" longNames EN "SEL BullionS2,Intel 8880V4,768MB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S2_80V4_1_32 externalID "S2-80V4-1-32" {names EN "SEL BullionS2,Intel 8880V4,1TB,32GB" longNames EN "SEL BullionS2,Intel 8880V4,1TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S2_80V4_15_32 externalID "S2-80V4-15-32" {names EN "SEL BullionS2,Intel 8880V4,1.5TB,32GB" longNames EN "SEL BullionS2,Intel 8880V4,1.5TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S2_90V4_2_64 externalID "S2-90V4-2-64" {names EN "SEL BullionS2,Intel 8880V4,2TB,64GB" longNames EN "SEL BullionS2,Intel 8880V4,2TB,64GB" classes COMPONENT,FIXED_MATERIAL}
+material S4_80V4_1_32 externalID "S4-80V4-1-32" {names EN "SEL BullionS4,Intel 8880V4,1TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,1TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S4_80V4_15_32 externalID "S4-80V4-15-32" {names EN "SEL BullionS4,Intel 8880V4,1.5TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,1.5TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S4_80V4_2_32 externalID "S4-80V4-2-32" {names EN "SEL BullionS4,Intel 8880V4,2TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,2TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S4_80V4_3_32 externalID "S4-80V4-3-32" {names EN "SEL BullionS4,Intel 8880V4,3TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,3TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S4_90V4_4_64 externalID "S4-90V4-4-64" {names EN "SEL BullionS4,Intel 8880V4,4TB,64GB" longNames EN "SEL BullionS4,Intel 8880V4,4TB,64GB" classes COMPONENT,FIXED_MATERIAL}
+material S6_80V4_4_5_32 externalID "S6-80V4-4.5-32" {names EN "SEL BullionS4,Intel 8880V4,4,5TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,4,5TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S6_90V4_6_64 externalID "S6-90V4-6-64" {names EN "SEL BullionS6,Intel 8890V4,6TB, 64GB" longNames EN "SEL BullionS6,Intel 8890V4,6TB, 64GB" classes COMPONENT,FIXED_MATERIAL}
+material S8_80V4_3_32 externalID "S8-80V4-3-32" {names EN "SEL BullionS8,Intel 8880V4,3TB, 32GB" longNames EN "SEL BullionS8,Intel 8880V4,3TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S8_80V4_4_32 externalID "S8-80V4-4-32" {names EN "SEL BullionS8,Intel 8880V4,4TB, 32GB" longNames EN "SEL BullionS8,Intel 8880V4,4TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S8_80V4_6_32 externalID "S8-80V4-6-32" {names EN "SEL BullionS8,Intel 8880V4,6TB, 32GB" longNames EN "SEL BullionS8,Intel 8880V4,6TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S8_90V4_6_32 externalID "S8-90V4-6-32" {names EN "SEL BullionS8,Intel 8890V4,6TB, 32GB" longNames EN "SEL BullionS8,Intel 8890V4,6TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S8_90V4_8_64 externalID "S8-90V4-8-64" {names EN "SEL BullionS8,Intel 8890V4,8TB, 64GB" longNames EN "SEL BullionS8,Intel 8890V4,8TB, 64GB" classes COMPONENT,FIXED_MATERIAL}
+material S10_80V4_75_32 externalID "S10-80V4-75-32" {names EN "SEL BullionS10,Intel 8880V4,7,5TB, 32GB" longNames EN "SEL BullionS10,Intel 8880V4,7,5TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S10_90V4_75_32 externalID "S10-90V4-75-32" {names EN "SEL BullionS10,Intel 8890V4,7,5TB, 32GB" longNames EN "SEL BullionS10,Intel 8890V4,7,5TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S10_90V4_10_64 externalID "S10-90V4-10-64" {names EN "SEL BullionS10,Intel 8890V4,10TB, 64GB" longNames EN "SEL BullionS10,Intel 8890V4,10TB, 64GB" classes COMPONENT,FIXED_MATERIAL}
+material S12_80V4_9_32 externalID "S12-80V4-9-32" {names EN "SEL BullionS12,Intel 8880V4,9TB, 32GB" longNames EN "SEL BullionS12,Intel 8880V4,9TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S12_90V4_9_32 externalID "S12-90V4-9-32" {names EN "SEL BullionS12,Intel 8890V4,9TB, 32GB" longNames EN "SEL BullionS12,Intel 8890V4,9TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S12_90V4_12_64 externalID "S12-90V4-12-64" {names EN "SEL BullionS12,Intel 8890V4,12TB, 64GB" longNames EN "SEL BullionS12,Intel 8890V4,12TB, 64GB" classes COMPONENT,FIXED_MATERIAL}
+material S14_80V4_10_32 externalID "S14-80V4-10-32" {names EN "SEL BullionS14,Intel 8880V4,10TB, 32GB" longNames EN "SEL BullionS14,Intel 8880V4,10TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S14_90V4_10_32 externalID "S14-90V4-10-32" {names EN "SEL BullionS14,Intel 8890V4,10TB, 32GB" longNames EN "SEL BullionS14,Intel 8890V4,10TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S14_90V4_14_64 externalID "S14-90V4-14-64" {names EN "SEL BullionS14,Intel 8890V4,14TB, 64GB" longNames EN "SEL BullionS14,Intel 8890V4,14TB, 64GB" classes COMPONENT,FIXED_MATERIAL}
+material S16_80V4_12_32 externalID "S16-80V4-12-32" {names EN "SEL BullionS16,Intel 8880V4,12TB, 32GB" longNames EN "SEL BullionS16,Intel 8880V4,12TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S16_90V4_12_32 externalID "S16-90V4-12-32" {names EN "SEL BullionS16,Intel 8890V4,12TB, 32GB" longNames EN "SEL BullionS16,Intel 8890V4,12TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S16_90V4_12_64 externalID "S16-90V4-12-64" {names EN "SEL BullionS16,Intel 8890V4,12TB, 64GB" longNames EN "SEL BullionS16,Intel 8890V4,12TB, 64GB" classes COMPONENT,FIXED_MATERIAL}
+material S16_90V4_16_64 externalID "S16-90V4-16-64" {names EN "SEL BullionS16,Intel 8890V4,16TB, 64GB" longNames EN "SEL BullionS16,Intel 8890V4,16TB, 64GB" classes COMPONENT,FIXED_MATERIAL}
+material BS2_80V4_512_32 externalID "BS2-80V4-512-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS2_80V4_768_32 externalID "BS2-80V4-768-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS2_80V4_1_32 externalID "BS2-80V4-1-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material BS2_80V4_15_32 externalID "BS2-80V4-15-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS2_90V4_2_64 externalID "BS2-90V4-2-64" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS4_80V4_1_32 externalID "BS4-80V4-1-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS4_80V4_15_32 externalID "BS4-80V4-15-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS4_80V4_2_32 externalID "BS4-80V4-2-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material BS4_80V4_3_32 externalID "BS4-80V4-3-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS4_90V4_4_64 externalID "BS4-90V4-4-64" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS6_80V4_45_32 externalID "BS6-80V4-45-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS6_90V4_6_64 externalID "BS6-90V4-6-64" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS8_80V4_3_32 externalID "BS8-80V4-3-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS8_80V4_4_32 externalID "BS8-80V4-4-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material BS8_80V4_6_32 externalID "BS8-80V4-6-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS8_90V4_6_32 externalID "BS8-90V4-6-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS8_90V4_8_64 externalID "BS8-90V4-8-64" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS10_80V4_75_32 externalID "BS10-80V4-75-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS10_90V4_75_32 externalID "BS10-90V4-75-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS10_90V4_10_64 externalID "BS10-90V4-10-64" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS12_80V4_9_32 externalID "BS12-80V4-9-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS12_90V4_9_32 externalID "BS12-90V4-9-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS12_90V4_12_64 externalID "BS12-90V4-12-64" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS14_80V4_10_32 externalID "BS14-80V4-10-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS14_90V4_10_32 externalID "BS14-90V4-10-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS14_90V4_14_64 externalID "BS14-90V4-14-64" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS16_80V4_12_32 externalID "BS16-80V4-12-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS16_90V4_12_32 externalID "BS16-90V4-12-32" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS16_90V4_12_64 externalID "BS16-90V4-12-64" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material BS16_90V4_16_64 externalID "BS16-90V4-16-64" {names EN "SEL 3Yrs Bronze supprt for Bullion HW" longNames EN "SEL 3Yrs Bronze supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS2_80V4_512_32 externalID "SS2-80V4-512-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS2_80V4_768_32 externalID "SS2-80V4-768-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS2_80V4_1_32 externalID "SS2-80V4-1-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material SS2_80V4_15_32 externalID "SS2-80V4-15-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS2_90V4_2_64 externalID "SS2-90V4-2-64" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS4_80V4_1_32 externalID "SS4-80V4-1-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS4_80V4_15_32 externalID "SS4-80V4-15-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS4_80V4_2_32 externalID "SS4-80V4-2-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material SS4_80V4_3_32 externalID "SS4-80V4-3-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS4_90V4_4_64 externalID "SS4-90V4-4-64" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material SS6_80V4_45_32 externalID "SS6-80V4-45-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS6_90V4_6_64 externalID "SS6-90V4-6-64" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS8_80V4_3_32 externalID "SS8-80V4-3-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS8_80V4_4_32 externalID "SS8-80V4-4-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material SS8_80V4_6_32 externalID "SS8-80V4-6-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material SS8_90V4_6_32 externalID "SS8-90V4-6-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS8_90V4_8_64 externalID "SS8-90V4-8-64" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS10_80V4_75_32 externalID "SS10-80V4-75-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS10_90V4_75_32 externalID "SS10-90V4-75-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS10_90V4_10_64 externalID "SS10-90V4-10-64" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS12_80V4_9_32 externalID "SS12-80V4-9-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS12_90V4_9_32 externalID "SS12-90V4-9-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS12_90V4_12_64 externalID "SS12-90V4-12-64" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS14_80V4_10_32 externalID "SS14-80V4-10-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS14_90V4_10_32 externalID "SS14-90V4-10-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS14_90V4_14_64 externalID "SS14-90V4-14-64" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS16_80V4_12_32 externalID "SS16-80V4-12-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS16_90V4_12_32 externalID "SS16-90V4-12-32" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS16_90V4_12_64 externalID "SS16-90V4-12-64" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SS16_90V4_16_64 externalID "SS16-90V4-16-64" {names EN "SEL 3Yrs Silver supprt for Bullion HW" longNames EN "SEL 3Yrs Silver supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS2_80V4_512_32 externalID "SGS2-80V4-512-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS2_80V4_768_32 externalID "SGS2-80V4-768-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS2_80V4_1_32 externalID "SGS2-80V4-1-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material SGS2_80V4_15_32 externalID "SGS2-80V4-15-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS2_90V4_2_64 externalID "SGS2-90V4-2-64" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS4_80V4_1_32 externalID "SGS4-80V4-1-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS4_80V4_15_32 externalID "SGS4-80V4-15-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS4_80V4_2_32 externalID "SGS4-80V4-2-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material SGS4_80V4_3_32 externalID "SGS4-80V4-3-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS4_90V4_4_64 externalID "SGS4-90V4-4-64" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS6_80V4_45_32 externalID "SGS6-80V4-45-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS6_90V4_6_64 externalID "SGS6-90V4-6-64" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS8_80V4_3_32 externalID "SGS8-80V4-3-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS8_80V4_4_32 externalID "SGS8-80V4-4-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+//material SGS8_80V4_6_32 externalID "SGS8-80V4-6-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS8_90V4_6_32 externalID "SGS8-90V4-6-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS8_90V4_8_64 externalID "SGS8-90V4-8-64" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS10_80V4_75_32 externalID "SGS10-80V4-75-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS10_90V4_75_32 externalID "SGS10-90V4-75-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS10_90V4_10_64 externalID "SGS10-90V4-10-64" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS12_80V4_9_32 externalID "SGS12-80V4-9-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS12_90V4_9_32 externalID "SGS12-90V4-9-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS12_90V4_12_64 externalID "SGS12-90V4-12-64" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS14_80V4_10_32 externalID "SGS14-80V4-10-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS14_90V4_10_32 externalID "SGS14-90V4-10-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS14_90V4_14_64 externalID "SGS14-90V4-14-64" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS16_80V4_12_32 externalID "SGS16-80V4-12-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS16_90V4_12_32 externalID "SGS16-90V4-12-32" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS16_90V4_12_64 externalID "SGS16-90V4-12-64" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SGS16_90V4_16_64 externalID "SGS16-90V4-16-64" {names EN "SEL 3Yrs Gold supprt for Bullion HW" longNames EN "SEL 3Yrs Gold supprt for Bullion HW" classes COMPONENT,FIXED_MATERIAL}
+material SH2_80V4_512_32 externalID "SH2-80V4-512-32" {names EN "SEL S2,Intel 8880V4,512MB,32G,VNX16Gbps" longNames EN "SEL S2,Intel 8880V4,512MB,32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH2_80V4_768_32 externalID "SH2-80V4-768-32" {names EN "SEL S2,Intel 8880V4,768MB,32G,VXN16Gbps" longNames EN "SEL S2,Intel 8880V4,768MB,32G,VXN16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH2_80V4_1_32 externalID "SH2-80V4-1-32" {names EN "SEL S2,Intel 8880V4,1TB,32G, VNX16Gbps" longNames EN "SEL S2,Intel 8880V4,1TB,32G, VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH2_80V4_15_32 externalID "SH2-80V4-15-32" {names EN "SEL S2,Intel 8880V4,1.5TB,32G, VNX16Gbps" longNames EN "SEL S2,Intel 8880V4,1.5TB,32G, VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH2_90V4_2_64 externalID "SH2-90V4-2-64" {names EN "SEL S2,Intel 8880V4,2TB,64G,VNX16Gbps" longNames EN "SEL S2,Intel 8880V4,2TB,64G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH4_80V4_1_32 externalID "SH4-80V4-1-32" {names EN "SEL S4,Intel 8880V4,1TB,32G,VNX16Gbps" longNames EN "SEL S4,Intel 8880V4,1TB,32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH4_80V4_15_32 externalID "SH4-80V4-15-32" {names EN "SEL S4,Intel 8880V4,1.5TB,32G,VNX16Gbps" longNames EN "SEL S4,Intel 8880V4,1.5TB,32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH4_80V4_2_32 externalID "SH4-80V4-2-32" {names EN "SEL S4,Intel 8880V4,2TB,32GB,VNX16Gbps" longNames EN "SEL S4,Intel 8880V4,2TB,32GB,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH4_80V4_3_32 externalID "SH4-80V4-3-32" {names EN "SEL S4,Intel 8880V4,3TB,32G,VNX16Gbps" longNames EN "SEL S4,Intel 8880V4,3TB,32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH4_90V4_4_64 externalID "SH4-90V4-4-64" {names EN "SEL S4,Intel 8880V4,4TB,64G,VNX16Gbps" longNames EN "SEL S4,Intel 8880V4,4TB,64G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH6_80V4_4_5_32 externalID "SH6-80V4-4.5-32" {names EN "SEL S4,Intel 8880V4,4,5TB,32G,VNX16Gbps" longNames EN "SEL S4,Intel 8880V4,4,5TB,32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH6_90V4_6_64 externalID "SH6-90V4-6-64" {names EN "SEL S6,Intel 8890V4,6TB, 64G,VNX16Gbps" longNames EN "SEL S6,Intel 8890V4,6TB, 64G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH8_80V4_3_32 externalID "SH8-80V4-3-32" {names EN "SEL S8,Intel 8880V4,3TB, 32G,VNX16Gbps" longNames EN "SEL S8,Intel 8880V4,3TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH8_80V4_4_32 externalID "SH8-80V4-4-32" {names EN "SEL S8,Intel 8880V4,4TB, 32G,VNX16Gbps" longNames EN "SEL S8,Intel 8880V4,4TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH8_80V4_6_32 externalID "SH8-80V4-6-32" {names EN "SEL S8,Intel 8880V4,6TB, 32G,VNX16Gbps" longNames EN "SEL S8,Intel 8880V4,6TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH8_90V4_6_32 externalID "SH8-90V4-6-32" {names EN "SEL S8,Intel 8890V4,6TB, 32GB,VNX16Gbps" longNames EN "SEL S8,Intel 8890V4,6TB, 32GB,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH8_90V4_8_64 externalID "SH8-90V4-8-64" {names EN "SEL S8,Intel 8890V4,8TB, 64GB,VNX16Gbps" longNames EN "SEL S8,Intel 8890V4,8TB, 64GB,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH10_80V4_75_32 externalID "SH10-80V4-75-32" {names EN "SEL S10,Intel 8880V4,7.5T,32GB,VNX16Gbps" longNames EN "SEL S10,Intel 8880V4,7.5T,32GB,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH10_90V4_75_32 externalID "SH10-90V4-75-32" {names EN "SEL S10,Intel 8890V4,7.5T, 32G,VNX16Gbps" longNames EN "SEL S10,Intel 8890V4,7.5T, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH10_90V4_10_64 externalID "SH10-90V4-10-64" {names EN "SEL S10,Intel 8890V4,10TB, 64G,VNX16Gbps" longNames EN "SEL S10,Intel 8890V4,10TB, 64G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH12_80V4_9_32 externalID "SH12-80V4-9-32" {names EN "SEL S12,Intel 8880V4,9TB, 32G,VNX16Gbps" longNames EN "SEL S12,Intel 8880V4,9TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH12_90V4_9_32 externalID "SH12-90V4-9-32" {names EN "SEL S12,Intel 8890V4,9TB, 32G,VNX16Gbps" longNames EN "SEL S12,Intel 8890V4,9TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH12_90V4_12_64 externalID "SH12-90V4-12-64" {names EN "SEL S12,Intel 8890V4,12TB, 64G,VNX16Gbps" longNames EN "SEL S12,Intel 8890V4,12TB, 64G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH14_80V4_10_32 externalID "SH14-80V4-10-32" {names EN "SEL S14,Intel 8880V4,10TB, 32G,VNX16Gbps" longNames EN "SEL S14,Intel 8880V4,10TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH14_90V4_10_32 externalID "SH14-90V4-10-32" {names EN "SEL S14,Intel 8890V4,10TB, 32G,VNX16Gbps" longNames EN "SEL S14,Intel 8890V4,10TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH14_90V4_14_64 externalID "SH14-90V4-14-64" {names EN "SEL S14,Intel 8890V4,14TB, 64G,VNX16Gbps" longNames EN "SEL S14,Intel 8890V4,14TB, 64G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH16_80V4_12_32 externalID "SH16-80V4-12-32" {names EN "SEL S16,Intel 8880V4,12TB, 32G,VNX16Gbps" longNames EN "SEL S16,Intel 8880V4,12TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH16_90V4_12_32 externalID "SH16-90V4-12-32" {names EN "SEL S16,Intel 8890V4,12TB, 32G,VNX16Gbps" longNames EN "SEL S16,Intel 8890V4,12TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH16_90V4_12_64 externalID "SH16-90V4-12-64" {names EN "SEL S16,Intel 8890V4,12TB, 64G,VNX16Gbps" longNames EN "SEL S16,Intel 8890V4,12TB, 64G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH16_90V4_16_64 externalID "SH16-90V4-16-64" {names EN "SEL S16,Intel 8890V4,16TB, 64G,VNX16Gbps" longNames EN "SEL S16,Intel 8890V4,16TB, 64G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SAS2_80V4_512_32 externalID "SAS2-80V4-512-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS2_80V4_768_32 externalID "SAS2-80V4-768-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS2_80V4_1_32 externalID "SAS2-80V4-1-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS2_80V4_15_32 externalID "SAS2-80V4-15-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS2_90V4_2_64 externalID "SAS2-90V4-2-64" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS4_80V4_1_32 externalID "SAS4-80V4-1-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS4_80V4_15_32 externalID "SAS4-80V4-15-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS4_80V4_2_32 externalID "SAS4-80V4-2-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS4_80V4_3_32 externalID "SAS4-80V4-3-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS4_90V4_4_64 externalID "SAS4-90V4-4-64" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS6_80V4_45_32 externalID "SAS6-80V4-45-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS6_90V4_6_64 externalID "SAS6-90V4-6-64" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS8_80V4_3_32 externalID "SAS8-80V4-3-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS8_80V4_4_32 externalID "SAS8-80V4-4-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS8_80V4_6_32 externalID "SAS8-80V4-6-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS8_90V4_6_32 externalID "SAS8-90V4-6-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS8_90V4_8_64 externalID "SAS8-90V4-8-64" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS10_80V4_75_32 externalID "SAS10-80V4-75-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS10_90V4_75_32 externalID "SAS10-90V4-75-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS10_90V4_10_64 externalID "SAS10-90V4-10-64" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS12_80V4_9_32 externalID "SAS12-80V4-9-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS12_90V4_9_32 externalID "SAS12-90V4-9-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS12_90V4_12_64 externalID "SAS12-90V4-12-64" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS14_80V4_10_32 externalID "SAS14-80V4-10-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS14_90V4_10_32 externalID "SAS14-90V4-10-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS14_90V4_14_64 externalID "SAS14-90V4-14-64" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS16_80V4_12_32 externalID "SAS16-80V4-12-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS16_90V4_12_32 externalID "SAS16-90V4-12-32" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS16_90V4_12_64 externalID "SAS16-90V4-12-64" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+material SAS16_90V4_16_64 externalID "SAS16-90V4-16-64" {names EN "SEL 3Yrs Gold support for S/H Applnce" longNames EN "SEL 3Yrs Gold support for S/H Applnce" classes COMPONENT,FIXED_MATERIAL}
+
+//Added for 506006
+material S2_80V4_512_32_2 externalID "S2-80V4-512-32-2" {names EN "SEL BullionS2,Intel 8880V4,512MB,32GB" longNames EN "SEL BullionS2,Intel 8880V4,512MB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S2_80V4_768_32_2 externalID "S2-80V4-768-32-2" {names EN "SEL BullionS2,Intel 8880V4,768MB,32GB" longNames EN "SEL BullionS2,Intel 8880V4,768MB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S2_80V4_1_32_2 externalID "S2-80V4-1-32-2" {names EN "SEL BullionS2,Intel 8880V4,1TB,32GB" longNames EN "SEL BullionS2,Intel 8880V4,1TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S2_80V4_15_32_2 externalID "S2-80V4-15-32-2" {names EN "SEL BullionS2,Intel 8880V4,1.5TB,32GB" longNames EN "SEL BullionS2,Intel 8880V4,1.5TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S4_80V4_1_32_2 externalID "S4-80V4-1-32-2" {names EN "SEL BullionS4,Intel 8880V4,1TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,1TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S4_80V4_15_32_2 externalID "S4-80V4-15-32-2" {names EN "SEL BullionS4,Intel 8880V4,1.5TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,1.5TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S4_80V4_2_32_2 externalID "S4-80V4-2-32-2" {names EN "SEL BullionS4,Intel 8880V4,2TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,2TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S4_80V4_3_32_2 externalID "S4-80V4-3-32-2" {names EN "SEL BullionS4,Intel 8880V4,3TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,3TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S6_80V4_4_5_32_2 externalID "S6-80V4-4.5-32-2" {names EN "SEL BullionS4,Intel 8880V4,4,5TB,32GB" longNames EN "SEL BullionS4,Intel 8880V4,4,5TB,32GB" classes COMPONENT,FIXED_MATERIAL}
+material S8_80V4_3_32_2 externalID "S8-80V4-3-32-2" {names EN "SEL BullionS8,Intel 8880V4,3TB, 32GB " longNames EN "SEL BullionS8,Intel 8880V4,3TB, 32GB " classes COMPONENT,FIXED_MATERIAL}
+material S8_80V4_4_32_2 externalID "S8-80V4-4-32-2" {names EN "SEL BullionS8,Intel 8880V4,4TB, 32GB " longNames EN "SEL BullionS8,Intel 8880V4,4TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S8_80V4_6_32_2 externalID "S8-80V4-6-32-2" {names EN "SEL BullionS8,Intel 8880V4,6TB, 32GB" longNames EN "SEL BullionS8,Intel 8880V4,6TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+material S8_90V4_6_32_2 externalID "S8-90V4-6-32-2" {names EN "SEL BullionS8,Intel 8890V4,6TB, 32GB" longNames EN "SEL BullionS8,Intel 8890V4,6TB, 32GB" classes COMPONENT,FIXED_MATERIAL}
+
+material SH4_80V4_2_32_2 externalID "SH4-80V4-2-32-2" {names EN "SEL S4,Intel 8880V4,2TB,32GB,VNX16Gbps" longNames EN "SEL S4,Intel 8880V4,2TB,32GB,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH4_80V4_3_32_2 externalID "SH4-80V4-3-32-2" {names EN "SEL S4,Intel 8880V4,3TB,32G,VNX16Gbps" longNames EN "SEL S4,Intel 8880V4,3TB,32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH6_80V4_4_532_2 externalID "SH6-80V4-4.532-2" {names EN "SEL S4,Intel 8880V4,4,5TB,32G,VNX16Gbps" longNames EN "SEL S4,Intel 8880V4,4,5TB,32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH8_80V4_3_32_2 externalID "SH8-80V4-3-32-2" {names EN "SEL S8,Intel 8880V4,3TB, 32G,VNX16Gbps" longNames EN "SEL S8,Intel 8880V4,3TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH8_80V4_4_32_2 externalID "SH8-80V4-4-32-2" {names EN "SEL S8,Intel 8880V4,4TB, 32G,VNX16Gbps" longNames EN "SEL S8,Intel 8880V4,4TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH8_80V4_6_32_2 externalID "SH8-80V4-6-32-2" {names EN "SEL S8,Intel 8880V4,6TB, 32G,VNX16Gbps" longNames EN "SEL S8,Intel 8880V4,6TB, 32G,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+material SH8_90V4_6_32_2 externalID "SH8-90V4-6-32-2" {names EN "SEL S8,Intel 8890V4,6TB, 32GB,VNX16Gbps" longNames EN "SEL S8,Intel 8890V4,6TB, 32GB,VNX16Gbps" classes COMPONENT,FIXED_MATERIAL}
+
+//Create kludge constraint:
+
+constraint KLUDGE_MATERIALS_TO_KB {
+objects:
+?ST is_a (300)ATOS_BULL
+condition:
+?ST.IS_MATERIAL_INSTANCE = 'NA'
+restrictions:
+find_or_create ((material)(300) (nr=DUMMY_MATERIAL))
+explanations:
+"This constraint will kludge the materials into knowledge base"
+}
